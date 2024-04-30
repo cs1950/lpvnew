@@ -1,0 +1,2 @@
+g++ -o pr1 pr1.cpp -fopenmp
+!nvcc hpc.cu -o hpc && ./hpc
